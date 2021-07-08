@@ -1,0 +1,13 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "Signpost tools",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "essentials": "git+ssh://git@github.com/signpost/essentials.git#400f3b6c1132e00d0c3a70bcb7c3f7881d26abe5"
+  },
+  "bin": {
+    "mia": "./cli.js"
+  }
+}
